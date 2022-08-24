@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Search from "./components/Search";
 import List from "./components/List";
 import * as BooksAPI from "./utils/BooksAPI";
+import NotFound from './components/NotFound';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <Routes>
+      <Route path="*" element={<NotFound />} />
       <Route path="/search" element={<Search books={books} updateShelf={updateShelf} />} />
       <Route exact path="/" element={<List books={books} updateShelf={updateShelf} />} />
     </Routes>

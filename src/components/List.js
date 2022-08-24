@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import BookShelf from './BookShelf';
+import Header from './Header';
 
 const List = ({books, updateShelf}) => {
 
@@ -10,9 +11,7 @@ const List = ({books, updateShelf}) => {
 
   return (
     <div className="list-books">
-      <div className="list-books-title">
-        <h1>MyReads</h1>
-      </div>
+      <Header />
       <div className="list-books-content">
         {
           <BookShelf shelf={filterShelf('currentlyReading')} name="Currently Reading" updateShelf={updateShelf}/>

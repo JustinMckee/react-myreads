@@ -182,3 +182,14 @@ body,
   text-align: center;
   font-size: 0.8em;
 }
+
+/* 404 */
+
+.not-found-404 {
+  text-align: center;
+}
+
+.not-found-404 h1 {
+  font-size: 6em;
+  line-height: .8;
+}
