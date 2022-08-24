@@ -2,6 +2,24 @@
 
 This is the final assessment project for Udacity's React Fundamentals course.
 
+# Main Page
+
+The main page shows three shelves for books. Each book is shown on a shelf chosen by the user, along with its title and all of its authors.
+
+The main page shows a control that allows users to move books between shelves. Each book allows the user to select “Currently Reading”, “Want to Read”, or “Read” to place the book in a certain shelf.
+
+When the browser is refreshed, the same information is displayed on the page.
+
+# Search Page
+
+The main page contains a link to the search page. When the link is clicked, the search page is displayed.
+
+As the user types into the search field, books that match the query are displayed on the page, along with their titles and authors.
+
+Search results on the search page allow the user to select “Currently Reading”, “Want to Read”, or “Read” to place the book in a certain shelf.
+
+If a book is assigned to a shelf on the main page and that book also appears on the search page, the correct shelf is indicated within the select field.
+
 ## Start
 
 To get started right away:
