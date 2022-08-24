@@ -2,7 +2,7 @@
 
 This is the final assessment project for Udacity's React Fundamentals course.
 
-# Main Page
+## Main Page
 
 The main page shows three shelves for books. Each book is shown on a shelf chosen by the user, along with its title and all of its authors.
 
@@ -10,7 +10,7 @@ The main page shows a control that allows users to move books between shelves. E
 
 When the browser is refreshed, the same information is displayed on the page.
 
-# Search Page
+## Search Page
 
 The main page contains a link to the search page. When the link is clicked, the search page is displayed.
 
